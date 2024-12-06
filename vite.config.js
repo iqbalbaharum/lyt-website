@@ -12,3 +12,4 @@ export default defineConfig({
     process.env.INLINE ? viteSingleFile() : null,
   ].filter(Boolean),
 });
+
